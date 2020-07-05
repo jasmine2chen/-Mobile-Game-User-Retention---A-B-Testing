@@ -15,3 +15,13 @@ The data contains information of 90,189 players that installed the game while th
 - sum_gamerounds: the number of game rounds played by the player during the first 14 days after install.
 - retention_1: did the player come back and play 1 day after installing?
 - retention_7: did the player come back and play 7 days after installing?
+
+## Analysis
+Two A/B testing methods are performed to analyze the impact of placing first gate at level 30 vs level 40 on the retention rate
+- bootstrap simulation
+- Python package statsmodels.api
+
+## Conclusions
+Both bootstrap and statsmodels.api results show that there is strong evidence that 7-day retention is higher when the gate is at level 30 than when it is at level 40 (99% confident according to statsmodels.api result). Similarly, 1-day retention is higher when the gate is at level 30 than when it is at level 40 (95% confident according to statsmodels.api result). If we want to keep retention high, for both 1-day and 7-day retention, we should not move the gate from level 30 to level 40. 
+These inferences are strictly based on data available. This analysis acknowledges its limitations due to factors not included in the data.
+
