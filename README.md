@@ -5,7 +5,7 @@ Cookie Cats is a hugely popular mobile puzzle game developed by Tactile. It's a 
 
 As players progress through the levels of the game, they will occasionally encounter gates that force them to wait a non-trivial amount of time or make an in-app purchase to progress. In addition to driving in-app purchases, these gates serve the important purpose of giving players an enforced break from playing the game, hopefully resulting in that the player's enjoyment of the game being increased and prolonged.
 
-I will analyze an AB-test where we moved the first gate in Cookie Cats from gate/level 30 to gate/level 40. In particular, I will look at the impact on player retention.
+I will analyze an AB-test where we move the first gate in Cookie Cats from gate/level 30 to gate/level 40. In particular, I will look at the impact on player retention.
 
 ## Dataset
 The data contains information of 90,189 players that installed the game while the AB-test was running. The variables are:
